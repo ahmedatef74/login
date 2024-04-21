@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+.img3 img{
+	margin: 20px;
+	padding: 20px;
+	float: right;
+}
+.wave{
+	position: fixed;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.container{
+	width: 97vw;
+	height: 70vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30rem;
+	padding: 0 2rem;
+	
+}
+
+.img1 img{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.img1 img{
+	width: 500px;
+}
+.image2 {
+	position: fixed;
+	height: 70%;
+	left: 120px;
+	bottom: 0;
+	z-index: -1;
+}
+.login-container{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.form{
+	width: 360px;
+
+}
+.p{
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	margin: 15px 0;
+	color: #555;
+}
+.input-div{
+	position: relative;
+	display: grid;
+	grid-template-columns: 10% 100%;
+	margin: 25px 0;
+	padding: 5px 0;
+	border-bottom: 2px solid #d9d9d9;
+
+}
+
+.input-div.one{
+	margin-top: 0;
+}
+.input-div.two{
+	margin-bottom: 4px;
+}
+.i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.i i{
+	color: #d9d9d9;
+	transition: .3s;
+}
+.input-div > div{
+	position: relative;
+	height: 45px;
+}
+
+.input{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0.5rem 0.7rem;
+	font-size: 1.2rem;
+	font-size: 'poppins' , sans-serif;
+	color: #555;
+}
+a{
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: #999;
+	font-size: 0.9rem;
+	transition: .3s;
+}
+a:hover{
+	color: #00A4BD;
+}
+.btn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	margin: 1rem 0;
+	font-size: 1.2rem;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right,#00A4BD,#00A4BD,#00A4BD );
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'poppins' , sans-serif;
+	background-size: 200%;
+	transition: .5s;
+}
